@@ -1,0 +1,25 @@
+
+<div class="allqa">
+        
+    <div class="qa-wrap">
+        {% for qa in site.data.settings.qa %}
+        <div class="detal">
+            <div class="qa-icon">
+            {% include icons/qa-icon-{{ qa.icon }}.html %}
+            </div>
+            <h3>{{ qa.Q }}</h3>
+            <p>{{ qa.A }}</p>
+         </div>
+        {% endfor %}
+                
+    </div>
+    <div class="info-wrap">
+        <p class="here">\ 我們在這裡唷 /</p>
+        <div class="map">
+            
+            {% include map.html %}   
+        </div>
+    </div>
+</div>
+
+

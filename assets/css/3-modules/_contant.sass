@@ -1,0 +1,56 @@
+.contant
+    background:
+        image: url(/assets/images/ZenBG3.png)
+    .contant-title
+        background-color: #353535
+        padding: 3% 0 3% 0
+        text-align: center
+        color: #fff
+        letter-spacing: 1.4px
+        font:
+            size: 14pt
+            weight: 300
+            family: Noto Sans
+    form
+        max-width: 650px
+        margin: 0 auto
+        padding: 30px
+        font-family: Noto Sans
+        font-weight: 100
+        input, textarea
+            +box-sizing(border-box)
+            padding: 10px 
+            width: 100%
+            border: #ccc 1px solid
+             
+            &:focus
+                outline: none
+                border: #fff 1px solid
+                box-shadow: 0 0 3px #60C3C2
+            &:hover
+                border: #fff 1px solid
+                box-shadow: 0 0 3px #60C3C2
+                +transition(0.3s)
+        textarea
+            height: 18em
+            
+        .contant-info
+                
+            label
+                width: 50%
+                float: left
+                +box-sizing(border-box)
+                margin-bottom: 30px
+                    
+                &:nth-child(1)
+                    padding-right: 15px
+                &:nth-child(2)
+                    padding-left: 15px    
+        label
+            display: block
+            width: 100%
+            
+            span
+                display: block
+                padding: 5px 0 10px 0
+        

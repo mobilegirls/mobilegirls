@@ -1,0 +1,23 @@
+<div class="says-section">
+    
+    <div class="says-belt">
+        <div class="says-icon">\ 學員怎麼說 /</div>
+        
+        {% for says in site.data.settings.says %}
+        <div class="says-wrap">
+            <div class="face" style="background-color: {{ says.iconcolor }}"></div>
+            <h2>{{ says.name }}</h2>
+            <h4>{{ says.data }}</h4>
+            <p>{{ says.quote }}</p>
+        </div>
+        {% endfor %}
+        
+    </div>
+
+    <div class="says-controls">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+</div>
