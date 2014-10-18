@@ -244,10 +244,10 @@ a:hover, a:focus {
   color: white; }
 
 ::selection {
-  background: #ffc7c3; }
+  background: rgba(96, 195, 194, 0.2); }
 
 ::-moz-selection {
-  background: #ffc7c3; }
+  background: rgba(96, 195, 194, 0.2); }
 
 img::selection {
   background: transparent; }
@@ -271,8 +271,8 @@ body {
 header {
   height: 630px;
   background-position: 102% 30%;
-  background-image: url(assets/images/slider.png), url(assets/images/ZenBG.png);
-  background-repeat: no-repeat, repeat;
+  background-image: url(../images/slider.png);
+  background-repeat: no-repeat;
   background-size: contain; }
   header .header-wrap {
     background: #fff;
@@ -366,12 +366,11 @@ header {
     header .header-wrap {
       display: flex; }
       header .header-wrap .logo {
-        margin: 0 auto;
-        padding: 30px 0 10px 10px; }
+        display: none; }
       header .header-wrap nav {
         text-align: center;
         margin: 0 0 0 0;
-        width: 80%;
+        width: 100%;
         background-color: #60C3C2; }
         header .header-wrap nav a {
           width: 38%;

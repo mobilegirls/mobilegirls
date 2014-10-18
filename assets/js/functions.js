@@ -3,7 +3,6 @@ $(function() {
     says();    
     contant();
     conHover();
-    mobileNav();
 });
 
 

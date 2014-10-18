@@ -3,7 +3,6 @@ $(function() {
     says();    
     contant();
     conHover();
-    mobileNav();
 });
 
 
@@ -38,10 +37,9 @@ function says() {
  
 }
 
-
+var form = $('.contant form').hide();
 
 function contant() {
-    var form = $('.contant form').hide();
     
     $('.contant .contant-title').click(function() {
         form.slideToggle();
