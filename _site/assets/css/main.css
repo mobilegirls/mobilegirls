@@ -505,41 +505,81 @@ footer {
   -o-transform: none;
   transform: none;
   clear: both;
-  padding-top: 8%; }
-  .section-intro-2 .about-2image {
+  padding-top: 8%;
+  position: static; }
+  .section-intro-2 .about-holder {
     height: 360px;
-    padding: 0 30% 10% 31%;
-    background-position: 103% -2%;
-    background-repeat: no-repeat;
-    background-size: 58%; }
-    .section-intro-2 .about-2image .about-2 {
-      line-height: 1.8;
-      margin: 0 auto; }
-      .section-intro-2 .about-2image .about-2 .about-box {
-        padding: 0 16% 0 14%; }
-        .section-intro-2 .about-2image .about-2 .about-box h4 {
-          margin: 0;
-          color: #333;
+    position: relative; }
+    .section-intro-2 .about-holder .swift {
+      position: absolute;
+      left: 4%;
+      right: 65%;
+      display: none; }
+      .section-intro-2 .about-holder .swift .about-box {
+        padding: 8% 10% 0 10%;
+        text-align: center; }
+        .section-intro-2 .about-holder .swift .about-box .about-icon {
+          margin: 0 auto;
+          height: 128px;
+          width: 128px;
+          transform: scale(0.8); }
+        .section-intro-2 .about-holder .swift .about-box h1 {
+          margin: 5px;
           latter-spacing: 1.2px;
           font-family: roboto;
           font-size: 18pt; }
-        .section-intro-2 .about-2image .about-2 .about-box p {
+        .section-intro-2 .about-holder .swift .about-box p {
+          display: inline; }
+    .section-intro-2 .about-holder .eclipse {
+      position: absolute;
+      left: 66%;
+      right: 4%;
+      display: none; }
+      .section-intro-2 .about-holder .eclipse .about-box {
+        padding: 8% 10% 0 10%;
+        text-align: center; }
+        .section-intro-2 .about-holder .eclipse .about-box .about-icon {
+          margin: 0 auto;
+          height: 128px;
+          width: 128px;
+          transform: scale(0.8); }
+        .section-intro-2 .about-holder .eclipse .about-box h1 {
+          margin: 5px;
+          latter-spacing: 1.2px;
+          font-family: roboto;
+          font-size: 18pt; }
+        .section-intro-2 .about-holder .eclipse .about-box p {
+          display: inline; }
+    .section-intro-2 .about-holder .about-2 {
+      line-height: 1.8;
+      position: absolute;
+      left: 32%;
+      right: 31%; }
+      .section-intro-2 .about-holder .about-2 .about-box {
+        padding: 0 17%; }
+        .section-intro-2 .about-holder .about-2 .about-box h4 {
+          margin: 0;
+          color: #555;
+          latter-spacing: 1.5px;
+          font-family: roboto;
+          font-size: 18pt; }
+        .section-intro-2 .about-holder .about-2 .about-box p {
           display: inline; }
 
 @media screen and (max-width: 980px) {
-  .section-intro-2 .about-2image {
+  .section-intro-2 .about-holder {
     padding: 0 20% 0% 20%;
     height: 460px;
     background-position: 122% -5%;
     background-size: 70%; } }
 @media screen and (max-width: 680px) {
-  .section-intro-2 .about-2image {
+  .section-intro-2 .about-holder {
     padding: 0 15% 0% 15%;
     height: 440px;
     background-position: 100% -5%;
     background-repeat: no-repeat;
     background-size: contain; }
-    .section-intro-2 .about-2image .about-2 .about-box {
+    .section-intro-2 .about-holder .about-2 .about-box {
       padding: 0; } }
 .allqa {
   width: 100%;
@@ -632,7 +672,7 @@ footer {
   padding: 20px 0 40px 0;
   border: #add 1.5px solid;
   border-radius: 20px;
-  margin: 0 22px 0 22px; }
+  margin: 10% 22px 0 22px; }
   .says-section .says-belt {
     width: 100%;
     position: relative; }

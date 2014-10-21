@@ -2,44 +2,94 @@
     +transform
     clear: both
     padding-top: 8%
-    .about-2image
+    position: static
+    .about-holder
         height: 360px
-        padding: 0 30% 10% 31%
-        background:
-            //image: url(/assets/images/cave2.png)
-            position: 103% -2%
-            repeat: no-repeat
-            size: 58%
-        .about-2
-            line-height: 1.8
-            margin: 0 auto
+        position: relative
+
+        .swift
+            position: absolute
+            left: 4%
+            right: 65%
+            display: none
+
             .about-box
-                padding: 0 16% 0 14%
-                h4
-                    margin: 0
-                    color: #333
+                //padding: 0 16% 0 14%
+                padding: 8% 10% 0 10%
+                text-align: center
+
+                .about-icon
+                    margin: 0 auto
+                    +size(128px)
+                    transform: scale(0.8)
+                h1
+                    margin: 5px
                     latter-spacing: 1.2px
                     font:
                         family: roboto
                         size: 18pt
                 p
                     display: inline
-                
+
+        .eclipse
+            position: absolute
+            left: 66%
+            right: 4%
+            display: none
+
+            .about-box
+                //padding: 0 16% 0 14%
+                padding: 8% 10% 0 10%
+                text-align: center
+
+                .about-icon
+                    margin: 0 auto
+                    +size(128px)
+                    transform: scale(0.8)
+
+                h1
+                    margin: 5px
+                    latter-spacing: 1.2px
+                    font:
+                        family: roboto
+                        size: 18pt
+                p
+                    display: inline
+
+        .about-2
+            line-height: 1.8
+            position: absolute
+            left: 32%
+            right: 31%
+
+            .about-box
+                padding: 0 17%
+                h4
+                    margin: 0
+                    color: #555
+                    latter-spacing: 1.5px
+                    font:
+                        family: roboto
+                        size: 18pt
+                p
+                    display: inline
+
+
 @media screen and (max-width: 980px)
     .section-intro-2
-        
-        .about-2image
+
+        .about-holder
             padding: 0 20% 0% 20%
             height: 460px
             background:
                 position: 122% -5%
                 size: 70%
-                    
+
 
 @media screen and (max-width: 680px)
     .section-intro-2
-        
-        .about-2image
+
+        .about-holder
             padding: 0 15% 0% 15%
             height: 440px
             background:
@@ -47,8 +97,8 @@
                 position: 100% -5%
                 repeat: no-repeat
                 size: contain
-                    
+
             .about-2
-                
+
                 .about-box
-                    padding: 0 
+                    padding: 0
