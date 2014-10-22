@@ -513,8 +513,7 @@ footer {
     .section-intro-2 .about-holder .swift {
       position: absolute;
       left: 4%;
-      right: 65%;
-      display: none; }
+      right: 65%; }
       .section-intro-2 .about-holder .swift .about-box {
         padding: 8% 10% 0 10%;
         text-align: center; }
@@ -525,7 +524,7 @@ footer {
           transform: scale(0.8); }
         .section-intro-2 .about-holder .swift .about-box h1 {
           margin: 5px;
-          latter-spacing: 1.2px;
+          letter-spacing: 1.2px;
           font-family: roboto;
           font-size: 18pt; }
         .section-intro-2 .about-holder .swift .about-box p {
@@ -533,8 +532,7 @@ footer {
     .section-intro-2 .about-holder .eclipse {
       position: absolute;
       left: 66%;
-      right: 4%;
-      display: none; }
+      right: 4%; }
       .section-intro-2 .about-holder .eclipse .about-box {
         padding: 8% 10% 0 10%;
         text-align: center; }
@@ -545,7 +543,7 @@ footer {
           transform: scale(0.8); }
         .section-intro-2 .about-holder .eclipse .about-box h1 {
           margin: 5px;
-          latter-spacing: 1.2px;
+          letter-spacing: 1.2px;
           font-family: roboto;
           font-size: 18pt; }
         .section-intro-2 .about-holder .eclipse .about-box p {
@@ -560,11 +558,23 @@ footer {
         .section-intro-2 .about-holder .about-2 .about-box h4 {
           margin: 0;
           color: #555;
-          latter-spacing: 1.5px;
+          letter-spacing: 1.5px;
           font-family: roboto;
           font-size: 18pt; }
         .section-intro-2 .about-holder .about-2 .about-box p {
           display: inline; }
+    .section-intro-2 .about-holder #swifthover {
+      position: absolute;
+      left: 35%;
+      right: 51%;
+      top: 20%;
+      height: 25%; }
+    .section-intro-2 .about-holder #eclipsehover {
+      position: absolute;
+      left: 49.5%;
+      right: 36.5%;
+      top: 20%;
+      height: 25%; }
 
 @media screen and (max-width: 980px) {
   .section-intro-2 .about-holder {

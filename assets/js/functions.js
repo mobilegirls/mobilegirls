@@ -1,8 +1,9 @@
 $(function() {
     smoothScroll(500);
-    says();    
+    says();
     contant();
     conHover();
+    swiftHover();
 });
 
 
@@ -24,23 +25,23 @@ function smoothScroll (duration) {
 function says() {
     $('.says-wrap').first().addClass('active-says');
     $('.says-controls span').first().addClass('active-control');
-    
+
     $('.says-controls span').click(function() {
         var $this = $(this),
             $siblings = $this.parent().children(),
             position = $siblings.index($this);
-    
+
     $('.says-wrap').removeClass('active-says').eq(position).addClass('active-says');
     $siblings.removeClass('active-control');
     $this.addClass('active-control');
 });
- 
+
 }
 
 var form = $('.contant form').hide();
 
 function contant() {
-    
+
     $('.contant .contant-title').click(function() {
         form.slideToggle();
         return false;
@@ -50,10 +51,24 @@ function contant() {
 
 
 function conHover() {
-    
+
     $('.contantHover').click(function() {
         form.show(2500);
     });
 
 }
 
+function swiftHover() {
+$("#swifthover").hover(function(){
+    $('.swift').show();
+},function(){
+    $('.swift').hide();
+});
+
+$("#eclipsehover").hover(function(){
+    $('.eclipse').show();
+},function(){
+    $('.eclipse').hide();
+});
+
+}
