@@ -579,18 +579,27 @@ footer {
 @media screen and (max-width: 980px) {
   .section-intro-2 .about-holder {
     padding: 0 20% 0% 20%;
-    height: 460px;
-    background-position: 122% -5%;
-    background-size: 70%; } }
+    height: 460px; }
+    .section-intro-2 .about-holder .about-2 {
+      position: absolute;
+      left: 28%;
+      right: 28%; } }
 @media screen and (max-width: 680px) {
   .section-intro-2 .about-holder {
     padding: 0 15% 0% 15%;
-    height: 440px;
-    background-position: 100% -5%;
-    background-repeat: no-repeat;
-    background-size: contain; }
-    .section-intro-2 .about-holder .about-2 .about-box {
-      padding: 0; } }
+    height: 440px; }
+    .section-intro-2 .about-holder .about-2 {
+      position: static; }
+      .section-intro-2 .about-holder .about-2 .about-box {
+        padding: 0; }
+  .section-intro-2 #swifthover {
+    display: none; }
+  .section-intro-2 #eclipsehover {
+    display: none; }
+  .section-intro-2 .eclipse {
+    display: none; }
+  .section-intro-2 .swift {
+    display: none; } }
 .allqa {
   width: 100%;
   display: flex; }
