@@ -1,8 +1,0 @@
-markdown: kramdown
-permalink: pretty
-
-port: 9000
-
-sass:
-  sass_dir: assets/css
-  style: :nested
